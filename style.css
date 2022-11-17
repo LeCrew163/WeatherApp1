@@ -8,13 +8,54 @@ header {
     justify-content: center;
 }
 
+#line {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     height: 10vh;
     display: flex;
     justify-content: center;
 }
 
+.weatherInfo {
+    display: flex;
+    vertical-align: middle; /* or top or bottom */
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    height: 5vh;
+    width: 20%;
+}
+
+#btn {
+    display: inline-block;
+    background-color: #7aadf9;
+    border-radius: 10px;
+    border: 4px double #7aadf9;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 4vh;
+    padding: 2vh;
+    width: 10%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2vh;
+}
+
 .body {
+    width: 100%;
     height: 80vh;
 }
 
