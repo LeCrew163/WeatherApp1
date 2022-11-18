@@ -25,7 +25,7 @@ function onSubmit() {
         case "Clouds":
             document.getElementById('html').style.background = "linear-gradient(to bottom, #aaa, #007)"; break;
         case "Mist":
-            document.getElementById('html').style.background = "linear-gradient(to bottom, #E5E4E2, #d9dbda)"; break;
+            document.getElementById('html').style.background = "linear-gradient(to bottom, #6d8096 1%,#a0afbc 35%,#bfc4c9 67%,#ededed 100%);"; break;
     }
 
     updateData(weather);

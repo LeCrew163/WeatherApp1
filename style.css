@@ -6,6 +6,7 @@ header {
     height: 10vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 10vh;
 }
 
 #line {
@@ -34,7 +35,20 @@ footer {
     display: flex;
     height: 5vh;
     width: 20%;
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+    margin-top: 2vh;
 }
+
+#input:focus {
+        outline: none;
+    }
 
 #btn {
     display: inline-block;
@@ -45,7 +59,8 @@ footer {
     text-align: center;
     font-size: 4vh;
     padding: 2vh;
-    width: 10%;
+    width: 10;
+    height: 15%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -54,9 +69,13 @@ footer {
     margin: 2vh;
 }
 
+#city {
+    margin-bottom: 10vh;
+}
+
 .body {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
 }
 
 html {
