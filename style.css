@@ -97,6 +97,15 @@ footer {
     height: 69vh;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: white;
+}
+
 html {
     height: 100vh;
 }
