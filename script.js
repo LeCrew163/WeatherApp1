@@ -23,7 +23,8 @@ function onSubmit() {
         case "Clear":
             document.getElementById('html').style.background = "linear-gradient(to bottom, #00f, #007)"; break;
         case "Clouds":
-            document.getElementById('html').style.background = "linear-gradient(to bottom, #aaa, #007)"; break;
+            document.getElementById('html').style.background = "linear-gradient(to bottom, #aaa, #007)";
+            document.getElementById('clouds').style.display = "block"; break;
         case "Mist":
             document.getElementById('html').style.background = "linear-gradient(to bottom, #6d8096 1%,#a0afbc 35%,#bfc4c9 67%,#ededed 100%);"; break;
     }
@@ -33,7 +34,7 @@ function onSubmit() {
 }
 
 function updateData(data) {
-    document.getElementById('city').textContent = weather.name;
+    document.getElementById('city').textContent = weather.name + ":";
     document.getElementById('temp').textContent = `Temperature: ${Math.round(weather.main.temp)} °C`;
 }
 

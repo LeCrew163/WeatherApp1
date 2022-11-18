@@ -22,20 +22,22 @@ footer {
 
 .weatherInfo {
     display: flex;
-    vertical-align: middle; /* or top or bottom */
+    vertical-align: middle;
+    /* or top or bottom */
     justify-content: center;
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #input {
-    display: flex;
-    height: 5vh;
-    width: 20%;
-    padding: 1rem;
+    height: 20px;
+    width: 268px;
+    padding: 16px;
     border-radius: 25px;
     border: none;
     background-color: #fff;
@@ -47,8 +49,8 @@ footer {
 }
 
 #input:focus {
-        outline: none;
-    }
+    outline: none;
+}
 
 #btn {
     display: inline-block;
@@ -58,24 +60,41 @@ footer {
     color: #eeeeee;
     text-align: center;
     font-size: 4vh;
-    padding: 2vh;
-    width: 10;
-    height: 15%;
+    padding: 1vh;
+    width: 150px;
+    height: 10%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     cursor: pointer;
     margin: 2vh;
+    margin-bottom: 10vh;
 }
 
 #city {
-    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#temp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#clouds {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .body {
     width: 100%;
-    height: 70vh;
+    height: 69vh;
 }
 
 html {
